@@ -1,0 +1,18 @@
+.login_box
+{
+margin: 50px;
+border: 1px solid grey;
+padding:50px;
+
+border-radius:15px;
+text-align:center;
+background-color:#00BFFF;
+}
+
+#textheight
+{
+	height:30px;
+	width:280px;
+	
+}
+

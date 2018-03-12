@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Contact Us </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs">
+          <form action="http://bootsnipp.com/search" method="GET" role="search">
+            <div class="input-group">
+              <input class="form-control" name="q" placeholder="Search for snippets" type="text">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                <button class="btn btn-danger" type="reset"><span class="glyphicon glyphicon-remove"></span></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class=""><a href="index1.html" class="animate">Home</a></li>
+        <li>
+          <a href="#" class="dropdown-toggle animate active" data-toggle="dropdown" data-hover="dropdown"data-delay="10" data-close-others="false">Contents<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class=""><a href="drugsuse1.html" class="animate">What types of drugs are commonly abused?<span class="pull-right glyphicon glyphicon-star"></span></a></li>
+            <li class=""><a href="symptoms1.html" class="animate">Symptoms and signs of drug abuse and addiction <span class="pull-right glyphicon glyphicon-star"></span></a></li>
+            <li><a href="brain1.html" class="animate">What happens to your brain when you take drugs? <span class="pull-right glyphicon glyphicon-star"></span></a></li>
+            <li class="dropdown-header">Diagnosis</li>
+            <li class=""><a href="Diagnosis1.html" class="animate">Diagnosis Of Addiction <span class="pull-right glyphicon glyphicon-star"></span></a></li>
+            <li class="dropdown-header">Prevention </li>
+            <li class=""><a href="prevention1.html" class="animate">Prevention <span class="pull-right glyphicon glyphicon-star"></span></a></li>
+            <li class=""><a href="consumption1.html" class="animate">Drugs Consumption<span class="pull-right glyphicon glyphicon-star"></span></a></li>
+          </ul>
+        </li>
+               <li class=""><a href="about1.html" class="animate">About us</a></li>
+
+        <li class=""><a href="treatment1.html" class="animate">Treatment</a></li>
+        
+        
+        
+                  <li class=""><a href="#" class="animate"><?php session_start(); echo "Welcome ". $_SESSION['username']; ?></a></li>
+          <li id="nav-login-btn" class=""><a href="logout.php" class="animate">Logout</a></li>
+        
+      </ul>
+    </div>
+<a href="index.html" ><img src="images/logo.png" class="logo" alt="logo"></a>
+	<div id="body">
+		<div id="campaigns">
+			<div class="header">
+				<div>
+					<h1>What types of drugs are commonly abused? </h1>
+					<p>
+						Virtually any substance whose ingestion can result in a euphoric ("high") feeling can be abused. While many are aware of the abuse of legal substances like alcohol or illegal drugs like marijuana (in most states) and cocaine, less well known is the fact that inhalants like household cleaners are some of the most commonly abused substances.
+
+					</p>
+				</div>
+				<img src="images/B.png" alt="Image" style="
+    width: 460px;
+">
+			</div>
+		
+			<div class="footer">
+				<p style="font-size:40px; padding-top:35px;">
+Do you want to help. Then			
+	</p>
+				<a href="getinvolved.html">Get Involved</a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="sendmail.php">
+				<h2>Send A Message</h2>
+				<label for="name"><span>Your Name:</span>
+					<input type="text" id="name" name="name">
+				</label>
+				<label for="emailad"><span>Email Address:</span>
+					<input type="text" id="emailad" name="emailad">
+				</label>
+				<label for="message"><span class="message">Message:</span>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</label>
+				<input type="submit" class="send" value="Send">
+			</form>
+			<div>
+				<h2>Contact Details</h2>
+				<ul>
+					<li>
+						<b>Location</b>
+						<span>:</span>
+						<p>
+							Andheri West,<br>Mumbai
+						</p>
+					</li>
+					<li>
+						<b>Phone</b>
+						<span>:</span>
+						<p>
+							+91-8879870826   
+						</p>
+					</li>
+					<li>
+						<b>Email</b>
+						<span>:</span>
+						<p>
+							<a href="email" class="email" target="_blank">saqibmubarak@gmail.com</a>
+						</p>
+					</li>
+					<li>
+						<b>Social</b>
+						<span>:</span>
+						<div>
+							<a href="http://www.facebook.com/unknownanonym" id="facebook" target="_blank">facebook</a>
+							<a href="#" id="twitter" target="_blank">twitter</a>
+							<a href="#" id="googleplus" target="_blank">google&#43;</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p>
+			&copy; Copyright 2032. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Homepage</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs">
+          <form action="http://bootsnipp.com/search" method="GET" role="search">
+            <div class="input-group">
+              <input class="form-control" name="q" placeholder="Search for snippets" type="text">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                <button class="btn btn-danger" type="reset"><span class="glyphicon glyphicon-remove"></span></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class=""><a href="index1.html" class="animate">Home</a></li>
+        <li>
+          <a href="#" class="dropdown-toggle animate active" data-toggle="dropdown" data-hover="dropdown"data-delay="10" data-close-others="false">Contents<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            <li class=""><a href="drugsuse1.html" class="animate">What types of drugs are commonly abused?<span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+            <li class=""><a href="symptoms1.html" class="animate">Symptoms and signs of drug abuse and addiction <span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+            <li><a href="brain1.html" class="animate">What happens to your brain when you take drugs? <span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+            <li class="dropdown-header">Diagnosis</li>
+            <li class=""><a href="Diagnosis1.html" class="animate">Diagnosis Of Addiction <span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+            <li class="dropdown-header">Prevention </li>
+            <li class=""><a href="prevention1.html" class="animate">Prevention <span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+            <li class=""><a href="consumption1.html" class="animate">Drugs Consumption<span class="pull-right glyphicon glyphicon-pencil"></span></a></li>
+          </ul>
+        </li>
+               <li class=""><a href="about1.html" class="animate">About us</a></li>
+
+        <li class=""><a href="treatment1.html" class="animate">Treatment</a></li>        
+        
+                  <li class=""><a href="#" class="animate">Welcome User</a></li>
+          <li id="nav-login-btn" class=""><a href="logout.php" class="animate">Logout</a></li>
+        
+      </ul>
+    </div>
+
+<a href="index1.html" ><img src="images/logo.png" class="logo" alt="logo"></a>
+	
+
+	<div id="body">
+		<div class="header">
+			<div>
+				<img src="images/people.jpg" alt="Image">
+				<div id="tagline">
+					<h1>SAVE LIVES</h1>
+					<h3>Drug addicts are killing themselves slowly.</h3>
+				</div>
+				<div class="section">
+					<h2>Human beings would be better and more respectable if drug addicts had not been born.</h2>
+					<p>
+						People try drugs out of curiosity, to have a good time, to improve athletic performance, or to escape from stress, anxiety or depression, but all drug addicts are willful victims themselves.<br>A Friend in need wont make you smoke that weed.
+					</p>
+					<a href="about1.html" class="first">&nbsp;Learn More About Us</a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div>
+				<div class="figure">
+					<a href="treatment1.html"><img src="images/hands.jpg" alt="Image"></a>
+					<h2><a href="treatment1.html">Treat Yourself</a></h2>
+				</div>
+				<div class="news">
+					<h2>News &amp; Blog</h2>
+					<ul>
+						<li>
+							<span class="date">15th SEPT 2015</span>
+					<h3>News</h3>
+							<p>
+								60 Minutes investigation into synthetic drug trade in China.
+							</p>
+						</li>
+						<li>
+							<span class="date">15th SEPT 2015</span>
+	<h3>News</h3>
+	<p>
+								Florida man arrested after accidentally texting captain of drug unit about drug deals
+							</p>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="help">
+					<h2>How To Help</h2>
+					<a href="register.php"><img src="images/finger.jpg" alt="Image"></a>
+					<h3><a href="register.php">Join Us!!</a></h3>
+					<p>
+						Join Us Today And Make This Earth A Drug-Free Planet.<br>When You Join Us You Are Actually Saving Lives.
+					</p>
+					<span class="link"><a href="register.php">Get Involved</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="sendmail.php">
+				<h2>Send A Message</h2>
+				<label for="name"><span>Your Name:</span>
+					<input type="text" id="name" name="name">
+				</label>
+				<label for="emailad"><span>Email Address:</span>
+					<input type="text" id="emailad" name="emailad">
+				</label>
+				<label for="message"><span class="message">Message:</span>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</label>
+				<input type="submit" class="send" value="Send">
+			</form>
+			<div>
+				<h2>Contact Details</h2>
+				<ul>
+					<li>
+						<b>Location</b>
+						<span>:</span>
+						<p>
+							Andheri West,<br>Mumbai
+						</p>
+					</li>
+					<li>
+						<b>Phone</b>
+						<span>:</span>
+						<p>
+							+91-8879870826   
+						</p>
+					</li>
+					<li>
+						<b>Email</b>
+						<span>:</span>
+						<p>
+							<a href="email" class="email" target="_blank">saqibmubarak@gmail.com</a>
+						</p>
+					</li>
+					<li>
+						<b>Social</b>
+						<span>:</span>
+						<div>
+							<a href="http://www.facebook.com/unknownanonym" id="facebook" target="_blank">facebook</a>
+							<a href="#" id="twitter" target="_blank">twitter</a>
+							<a href="#" id="googleplus" target="_blank">google&#43;</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p>
+			&copy; Copyright 2032. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>
